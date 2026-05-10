@@ -13,6 +13,7 @@ export const trailingSlash = 'always';
 
 const defaultLocale: Locale = 'ar';
 const rtlLocales = new Set<Locale>(['ar']);
+const storageKey = 'preferred-locale';
 
 function normalizeLocale(locale: string | null): Locale {
 	return locales.includes(locale as Locale) ? (locale as Locale) : defaultLocale;
@@ -20,13 +21,17 @@ function normalizeLocale(locale: string | null): Locale {
 
 export const load: LayoutLoad = async ({ url }) => {
 	const segments = url.pathname.split('/').filter(Boolean);
-	const locale = normalizeLocale(segments[0] ?? null);
+	const routeLocale = locales.includes(segments[0] as Locale) ? (segments[0] as Locale) : null;
+	const locale = normalizeLocale(routeLocale);
 	const dir = rtlLocales.has(locale) ? 'rtl' : 'ltr';
-	const pathWithoutLocale = locales.includes(segments[0] as Locale) ? segments.slice(1) : segments;
+	const pathWithoutLocale = routeLocale ? segments.slice(1) : segments;
 	const localizedPath = (targetLocale: Locale) => `/${[targetLocale, ...pathWithoutLocale].join('/')}`;
 
 	if (browser) {
 		await loadLocale(locale);
+		if (routeLocale) {
+			localStorage.setItem(storageKey, routeLocale);
+		}
 	}
 
 	return {

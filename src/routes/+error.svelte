@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/state';
 
-	const homeHref = $derived(`/${page.data.locale ?? 'ar'}`);
+	const homeHref = $derived(`/${page.data.locale ?? 'ar'}/`);
 </script>
 
 <svelte:head>

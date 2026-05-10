@@ -11,8 +11,12 @@
 		ar: 'AR'
 	};
 
+	const storageKey = 'preferred-locale';
+
 	function switchLocale(nextLocale: Locale) {
 		if (nextLocale === locale) return;
+
+		localStorage.setItem(storageKey, nextLocale);
 
 		const url = new URL(page.url);
 		const segments = url.pathname.split('/').filter(Boolean);
