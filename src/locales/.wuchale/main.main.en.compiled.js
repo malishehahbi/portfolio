@@ -1,16 +1,2 @@
-
-                /** @type import('wuchale').CompiledElement[] */
+/** @type import('wuchale').CompiledElement[] */
 export let c = ["Web Dev","React / Next.js","TypeScript","Tailwind CSS","WebGL / Three.js","Backend","Node.js / Go","PostgreSQL","Redis / Kafka","Python / FastAPI","Tools","Docker / K8s","Git / CI/CD","Figma Arch","Terraform","Interests","Neural Networks","Fintech Pipes","SaaS Architecture","UX Engineering","Synthetix Engine","A real-time AI processing pipeline for high-frequency financial data analysis.","Rust","Monolith OS","A browser-based operating system built for ultra-minimalist focus workflows.","Next.js","Zustand","Krypton UI","Component system for data-heavy fintech dashboards emphasizing clarity.","Storybook","Tailwind","Neural Graph","Visualizing complex AI decision trees in 3D space using WebGL.","Three.js","Python","Architectural Lead","Freelance / Remote","Building custom SaaS foundations for early-stage fintech startups. Focus on scalability and DX.","Full Stack Engineer","Tech Monolith Inc.","Maintained core infrastructure for high-traffic e-commerce platforms using modern stacks.","Computer Engineering","University Technical Institute","Pursuing degree with focus on Distributed Systems and Software Architecture.","Toggle menu","CONTACT","Mohammad Ali - Computer Engineer","IDENTITY / 001","M. ALI",["3rd Year ",[0,"Computer Engineer"]," & Independent Builder. Modern Web Experiences, AI, Fintech, SaaS."],"SYSTEM STATE: ACTIVE","LOC: 40.7128° N, 74.0060° W","PHILOSOPHY","Architectural Intent","I approach code not just as a set of instructions, but as a structural discipline. Similar to brutalist architecture, my work prioritizes honesty in materials—meaning clean logic, robust data structures, and uncompromised performance. Every module is a load-bearing element in the digital ecosystem.","The goal is to eliminate the unnecessary. By adhering to the principles of Swiss Modernism, I create interfaces where typography dictates the rhythm and whitespace provides the clarity required for complex technical tasks.","CAPABILITIES / CORE","WORKS / INDEX","north_east","CHRONOLOGY","THE VISION","\"Simplicity is the ultimate structural integrity. We build not just for function, but for permanence in an ephemeral digital age.\"","TRANSMISSION","Initiate Connect","SENDER_NAME","SENDER_EMAIL","MESSAGE_PAYLOAD","SEND_TRANSMISSION","© 2024 BUILT BY ARCHITECTURAL MONOLITH. ALL RIGHTS RESERVED.","GITHUB","LINKEDIN","SOURCE","Language"]
-                // only during dev, for HMR
-                let latestVersion = -1
-                // @ts-ignore
-                export function update({ version, data }) {
-                    if (latestVersion >= version) {
-                        return
-                    }
-                    for (const [ index, item ] of data['en'] ?? []) {
-                        c[index] = item
-                    }
-                    latestVersion = version
-                }
-            

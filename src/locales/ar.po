@@ -242,7 +242,7 @@ msgstr "الأعمال / المؤشر"
 
 #: src/routes/+page.svelte
 msgid "north_east"
-msgstr "شمال_شرق"
+msgstr "north_east"
 
 #: src/routes/+page.svelte
 msgid "CHRONOLOGY"

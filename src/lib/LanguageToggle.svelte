@@ -1,0 +1,46 @@
+<script lang="ts">
+	import { goto } from '$app/navigation';
+	import { page } from '$app/state';
+
+	type Locale = 'en' | 'ar';
+
+	let { locale = 'ar' }: { locale?: Locale } = $props();
+
+	const labels: Record<Locale, string> = {
+		en: 'EN',
+		ar: 'AR'
+	};
+
+	function switchLocale(nextLocale: Locale) {
+		if (nextLocale === locale) return;
+
+		const url = new URL(page.url);
+		url.searchParams.set('locale', nextLocale);
+
+		goto(`${url.pathname}${url.search}${url.hash}`, {
+			keepFocus: true,
+			noScroll: true
+		});
+	}
+</script>
+
+<div
+	class="inline-grid grid-cols-2 border border-outline-variant/40 bg-surface-container-low text-[11px] font-headline font-bold uppercase tracking-widest"
+	aria-label="Language"
+>
+	{#each ['en', 'ar'] as option}
+		<button
+			type="button"
+			class={[
+				'min-h-[38px] min-w-12 px-3 transition-colors',
+				locale === option
+					? 'bg-primary text-on-primary'
+					: 'text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface'
+			]}
+			aria-pressed={locale === option}
+			onclick={() => switchLocale(option as Locale)}
+		>
+			{labels[option as Locale]}
+		</button>
+	{/each}
+</div>
