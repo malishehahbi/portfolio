@@ -1,0 +1,301 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"Source-Language: en\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/routes/+page.svelte
+msgid "Web Dev"
+msgstr "Web Dev"
+
+#: src/routes/+page.svelte
+msgid "React / Next.js"
+msgstr "React / Next.js"
+
+#: src/routes/+page.svelte
+msgid "TypeScript"
+msgstr "TypeScript"
+
+#: src/routes/+page.svelte
+msgid "Tailwind CSS"
+msgstr "Tailwind CSS"
+
+#: src/routes/+page.svelte
+msgid "WebGL / Three.js"
+msgstr "WebGL / Three.js"
+
+#: src/routes/+page.svelte
+msgid "Backend"
+msgstr "Backend"
+
+#: src/routes/+page.svelte
+msgid "Node.js / Go"
+msgstr "Node.js / Go"
+
+#: src/routes/+page.svelte
+msgid "PostgreSQL"
+msgstr "PostgreSQL"
+
+#: src/routes/+page.svelte
+msgid "Redis / Kafka"
+msgstr "Redis / Kafka"
+
+#: src/routes/+page.svelte
+msgid "Python / FastAPI"
+msgstr "Python / FastAPI"
+
+#: src/routes/+page.svelte
+msgid "Tools"
+msgstr "Tools"
+
+#: src/routes/+page.svelte
+msgid "Docker / K8s"
+msgstr "Docker / K8s"
+
+#: src/routes/+page.svelte
+msgid "Git / CI/CD"
+msgstr "Git / CI/CD"
+
+#: src/routes/+page.svelte
+msgid "Figma Arch"
+msgstr "Figma Arch"
+
+#: src/routes/+page.svelte
+msgid "Terraform"
+msgstr "Terraform"
+
+#: src/routes/+page.svelte
+msgid "Interests"
+msgstr "Interests"
+
+#: src/routes/+page.svelte
+msgid "Neural Networks"
+msgstr "Neural Networks"
+
+#: src/routes/+page.svelte
+msgid "Fintech Pipes"
+msgstr "Fintech Pipes"
+
+#: src/routes/+page.svelte
+msgid "SaaS Architecture"
+msgstr "SaaS Architecture"
+
+#: src/routes/+page.svelte
+msgid "UX Engineering"
+msgstr "UX Engineering"
+
+#: src/routes/+page.svelte
+msgid "Synthetix Engine"
+msgstr "Synthetix Engine"
+
+#: src/routes/+page.svelte
+msgid "A real-time AI processing pipeline for high-frequency financial data analysis."
+msgstr "A real-time AI processing pipeline for high-frequency financial data analysis."
+
+#: src/routes/+page.svelte
+msgid "Rust"
+msgstr "Rust"
+
+#: src/routes/+page.svelte
+msgid "Monolith OS"
+msgstr "Monolith OS"
+
+#: src/routes/+page.svelte
+msgid "A browser-based operating system built for ultra-minimalist focus workflows."
+msgstr "A browser-based operating system built for ultra-minimalist focus workflows."
+
+#: src/routes/+page.svelte
+msgid "Next.js"
+msgstr "Next.js"
+
+#: src/routes/+page.svelte
+msgid "Zustand"
+msgstr "Zustand"
+
+#: src/routes/+page.svelte
+msgid "Krypton UI"
+msgstr "Krypton UI"
+
+#: src/routes/+page.svelte
+msgid "Component system for data-heavy fintech dashboards emphasizing clarity."
+msgstr "Component system for data-heavy fintech dashboards emphasizing clarity."
+
+#: src/routes/+page.svelte
+msgid "Storybook"
+msgstr "Storybook"
+
+#: src/routes/+page.svelte
+msgid "Tailwind"
+msgstr "Tailwind"
+
+#: src/routes/+page.svelte
+msgid "Neural Graph"
+msgstr "Neural Graph"
+
+#: src/routes/+page.svelte
+msgid "Visualizing complex AI decision trees in 3D space using WebGL."
+msgstr "Visualizing complex AI decision trees in 3D space using WebGL."
+
+#: src/routes/+page.svelte
+msgid "Three.js"
+msgstr "Three.js"
+
+#: src/routes/+page.svelte
+msgid "Python"
+msgstr "Python"
+
+#: src/routes/+page.svelte
+msgid "Architectural Lead"
+msgstr "Architectural Lead"
+
+#: src/routes/+page.svelte
+msgid "Freelance / Remote"
+msgstr "Freelance / Remote"
+
+#: src/routes/+page.svelte
+msgid "Building custom SaaS foundations for early-stage fintech startups. Focus on scalability and DX."
+msgstr "Building custom SaaS foundations for early-stage fintech startups. Focus on scalability and DX."
+
+#: src/routes/+page.svelte
+msgid "Full Stack Engineer"
+msgstr "Full Stack Engineer"
+
+#: src/routes/+page.svelte
+msgid "Tech Monolith Inc."
+msgstr "Tech Monolith Inc."
+
+#: src/routes/+page.svelte
+msgid "Maintained core infrastructure for high-traffic e-commerce platforms using modern stacks."
+msgstr "Maintained core infrastructure for high-traffic e-commerce platforms using modern stacks."
+
+#: src/routes/+page.svelte
+msgid "Computer Engineering"
+msgstr "Computer Engineering"
+
+#: src/routes/+page.svelte
+msgid "University Technical Institute"
+msgstr "University Technical Institute"
+
+#: src/routes/+page.svelte
+msgid "Pursuing degree with focus on Distributed Systems and Software Architecture."
+msgstr "Pursuing degree with focus on Distributed Systems and Software Architecture."
+
+#: src/routes/+page.svelte
+msgid "Toggle menu"
+msgstr "Toggle menu"
+
+#: src/routes/+page.svelte
+#: src/routes/+page.svelte
+msgid "CONTACT"
+msgstr "CONTACT"
+
+#: src/routes/+page.svelte
+msgid "Mohammad Ali - Computer Engineer"
+msgstr "Mohammad Ali - Computer Engineer"
+
+#: src/routes/+page.svelte
+msgid "IDENTITY / 001"
+msgstr "IDENTITY / 001"
+
+#: src/routes/+page.svelte
+msgid "M. ALI"
+msgstr "M. ALI"
+
+#: src/routes/+page.svelte
+msgid "3rd Year <0>Computer Engineer</0> & Independent Builder. Modern Web Experiences, AI, Fintech, SaaS."
+msgstr "3rd Year <0>Computer Engineer</0> & Independent Builder. Modern Web Experiences, AI, Fintech, SaaS."
+
+#: src/routes/+page.svelte
+msgid "SYSTEM STATE: ACTIVE"
+msgstr "SYSTEM STATE: ACTIVE"
+
+#: src/routes/+page.svelte
+msgid "LOC: 40.7128° N, 74.0060° W"
+msgstr "LOC: 40.7128° N, 74.0060° W"
+
+#: src/routes/+page.svelte
+msgid "PHILOSOPHY"
+msgstr "PHILOSOPHY"
+
+#: src/routes/+page.svelte
+msgid "Architectural Intent"
+msgstr "Architectural Intent"
+
+#: src/routes/+page.svelte
+msgid "I approach code not just as a set of instructions, but as a structural discipline. Similar to brutalist architecture, my work prioritizes honesty in materials—meaning clean logic, robust data structures, and uncompromised performance. Every module is a load-bearing element in the digital ecosystem."
+msgstr "I approach code not just as a set of instructions, but as a structural discipline. Similar to brutalist architecture, my work prioritizes honesty in materials—meaning clean logic, robust data structures, and uncompromised performance. Every module is a load-bearing element in the digital ecosystem."
+
+#: src/routes/+page.svelte
+msgid "The goal is to eliminate the unnecessary. By adhering to the principles of Swiss Modernism, I create interfaces where typography dictates the rhythm and whitespace provides the clarity required for complex technical tasks."
+msgstr "The goal is to eliminate the unnecessary. By adhering to the principles of Swiss Modernism, I create interfaces where typography dictates the rhythm and whitespace provides the clarity required for complex technical tasks."
+
+#: src/routes/+page.svelte
+msgid "CAPABILITIES / CORE"
+msgstr "CAPABILITIES / CORE"
+
+#: src/routes/+page.svelte
+msgid "WORKS / INDEX"
+msgstr "WORKS / INDEX"
+
+#: src/routes/+page.svelte
+msgid "north_east"
+msgstr "north_east"
+
+#: src/routes/+page.svelte
+msgid "CHRONOLOGY"
+msgstr "CHRONOLOGY"
+
+#: src/routes/+page.svelte
+msgid "THE VISION"
+msgstr "THE VISION"
+
+#: src/routes/+page.svelte
+msgid "\"Simplicity is the ultimate structural integrity. We build not just for function, but for permanence in an ephemeral digital age.\""
+msgstr "\"Simplicity is the ultimate structural integrity. We build not just for function, but for permanence in an ephemeral digital age.\""
+
+#: src/routes/+page.svelte
+msgid "TRANSMISSION"
+msgstr "TRANSMISSION"
+
+#: src/routes/+page.svelte
+msgid "Initiate Connect"
+msgstr "Initiate Connect"
+
+#: src/routes/+page.svelte
+msgid "SENDER_NAME"
+msgstr "SENDER_NAME"
+
+#: src/routes/+page.svelte
+msgid "SENDER_EMAIL"
+msgstr "SENDER_EMAIL"
+
+#: src/routes/+page.svelte
+msgid "MESSAGE_PAYLOAD"
+msgstr "MESSAGE_PAYLOAD"
+
+#: src/routes/+page.svelte
+msgid "SEND_TRANSMISSION"
+msgstr "SEND_TRANSMISSION"
+
+#: src/routes/+page.svelte
+msgid "© 2024 BUILT BY ARCHITECTURAL MONOLITH. ALL RIGHTS RESERVED."
+msgstr "© 2024 BUILT BY ARCHITECTURAL MONOLITH. ALL RIGHTS RESERVED."
+
+#: src/routes/+page.svelte
+msgid "GITHUB"
+msgstr "GITHUB"
+
+#: src/routes/+page.svelte
+msgid "LINKEDIN"
+msgstr "LINKEDIN"
+
+#: src/routes/+page.svelte
+msgid "SOURCE"
+msgstr "SOURCE"
+
+#: src/lib/LanguageToggle.svelte
+msgid "Language"
+msgstr "Language"

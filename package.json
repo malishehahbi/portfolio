@@ -24,5 +24,9 @@
 		"tailwindcss": "^4.2.2",
 		"typescript": "^5.9.3",
 		"vite": "^7.3.1"
+	},
+	"dependencies": {
+		"@wuchale/svelte": "^0.19.4",
+		"wuchale": "^0.23.3"
 	}
 }
