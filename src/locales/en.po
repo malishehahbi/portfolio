@@ -11,399 +11,336 @@ msgstr ""
 msgid "Language"
 msgstr "Language"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
 msgid "Web Dev"
 msgstr "Web Dev"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
 msgid "React / Next.js"
 msgstr "React / Next.js"
 
-#: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
 msgid "TypeScript"
 msgstr "TypeScript"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
-msgid "Tailwind CSS"
-msgstr "Tailwind CSS"
+#: src/routes/[locale=locale]/+page.svelte
+msgid "SvelteKit"
+msgstr "SvelteKit"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
 msgid "WebGL / Three.js"
 msgstr "WebGL / Three.js"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
 msgid "Backend"
 msgstr "Backend"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
-msgid "Node.js / Go"
-msgstr "Node.js / Go"
+msgid "Node.js"
+msgstr "Node.js"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
 msgid "PostgreSQL"
 msgstr "PostgreSQL"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
-msgid "Redis / Kafka"
-msgstr "Redis / Kafka"
+msgid "Redis"
+msgstr "Redis"
 
-#: src/routes/+page.svelte
-#: src/routes/[locale=locale]/+page.svelte
-msgid "Python / FastAPI"
-msgstr "Python / FastAPI"
-
-#: src/routes/+page.svelte
-#: src/routes/[locale=locale]/+page.svelte
-msgid "Tools"
-msgstr "Tools"
-
-#: src/routes/+page.svelte
-#: src/routes/[locale=locale]/+page.svelte
-msgid "Docker / K8s"
-msgstr "Docker / K8s"
-
-#: src/routes/+page.svelte
-#: src/routes/[locale=locale]/+page.svelte
-msgid "Git / CI/CD"
-msgstr "Git / CI/CD"
-
-#: src/routes/+page.svelte
-#: src/routes/[locale=locale]/+page.svelte
-msgid "Figma Arch"
-msgstr "Figma Arch"
-
-#: src/routes/+page.svelte
-#: src/routes/[locale=locale]/+page.svelte
-msgid "Terraform"
-msgstr "Terraform"
-
-#: src/routes/+page.svelte
-#: src/routes/[locale=locale]/+page.svelte
-msgid "Interests"
-msgstr "Interests"
-
-#: src/routes/+page.svelte
-#: src/routes/[locale=locale]/+page.svelte
-msgid "Neural Networks"
-msgstr "Neural Networks"
-
-#: src/routes/+page.svelte
-#: src/routes/[locale=locale]/+page.svelte
-msgid "Fintech Pipes"
-msgstr "Fintech Pipes"
-
-#: src/routes/+page.svelte
-#: src/routes/[locale=locale]/+page.svelte
-msgid "SaaS Architecture"
-msgstr "SaaS Architecture"
-
-#: src/routes/+page.svelte
-#: src/routes/[locale=locale]/+page.svelte
-msgid "UX Engineering"
-msgstr "UX Engineering"
-
-#: src/routes/+page.svelte
-#: src/routes/[locale=locale]/+page.svelte
-msgid "Synthetix Engine"
-msgstr "Synthetix Engine"
-
-#: src/routes/+page.svelte
-#: src/routes/[locale=locale]/+page.svelte
-msgid "A real-time AI processing pipeline for high-frequency financial data analysis."
-msgstr "A real-time AI processing pipeline for high-frequency financial data analysis."
-
-#: src/routes/+page.svelte
-#: src/routes/[locale=locale]/+page.svelte
-msgid "Rust"
-msgstr "Rust"
-
-#: src/routes/+page.svelte
-#: src/routes/[locale=locale]/+page.svelte
-msgid "Monolith OS"
-msgstr "Monolith OS"
-
-#: src/routes/+page.svelte
-#: src/routes/[locale=locale]/+page.svelte
-msgid "A browser-based operating system built for ultra-minimalist focus workflows."
-msgstr "A browser-based operating system built for ultra-minimalist focus workflows."
-
-#: src/routes/+page.svelte
-#: src/routes/[locale=locale]/+page.svelte
-msgid "Next.js"
-msgstr "Next.js"
-
-#: src/routes/+page.svelte
-#: src/routes/[locale=locale]/+page.svelte
-msgid "Zustand"
-msgstr "Zustand"
-
-#: src/routes/+page.svelte
-#: src/routes/[locale=locale]/+page.svelte
-msgid "Krypton UI"
-msgstr "Krypton UI"
-
-#: src/routes/+page.svelte
-#: src/routes/[locale=locale]/+page.svelte
-msgid "Component system for data-heavy fintech dashboards emphasizing clarity."
-msgstr "Component system for data-heavy fintech dashboards emphasizing clarity."
-
-#: src/routes/+page.svelte
-#: src/routes/[locale=locale]/+page.svelte
-msgid "Storybook"
-msgstr "Storybook"
-
-#: src/routes/+page.svelte
-#: src/routes/[locale=locale]/+page.svelte
-msgid "Tailwind"
-msgstr "Tailwind"
-
-#: src/routes/+page.svelte
-#: src/routes/[locale=locale]/+page.svelte
-msgid "Neural Graph"
-msgstr "Neural Graph"
-
-#: src/routes/+page.svelte
-#: src/routes/[locale=locale]/+page.svelte
-msgid "Visualizing complex AI decision trees in 3D space using WebGL."
-msgstr "Visualizing complex AI decision trees in 3D space using WebGL."
-
-#: src/routes/+page.svelte
-#: src/routes/[locale=locale]/+page.svelte
-msgid "Three.js"
-msgstr "Three.js"
-
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
 msgid "Python"
 msgstr "Python"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
-msgid "Architectural Lead"
-msgstr "Architectural Lead"
+msgid "Tools"
+msgstr "Tools"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
-msgid "Freelance / Remote"
-msgstr "Freelance / Remote"
+msgid "Docker"
+msgstr "Docker"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
-msgid "Building custom SaaS foundations for early-stage fintech startups. Focus on scalability and DX."
-msgstr "Building custom SaaS foundations for early-stage fintech startups. Focus on scalability and DX."
+msgid "Git / CI/CD"
+msgstr "Git / CI/CD"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
-msgid "Full Stack Engineer"
-msgstr "Full Stack Engineer"
+msgid "Figma Arch"
+msgstr "Figma Arch"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
-msgid "Tech Monolith Inc."
-msgstr "Tech Monolith Inc."
+msgid "Terraform"
+msgstr "Terraform"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
-msgid "Maintained core infrastructure for high-traffic e-commerce platforms using modern stacks."
-msgstr "Maintained core infrastructure for high-traffic e-commerce platforms using modern stacks."
+msgid "Interests"
+msgstr "Interests"
 
-#: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
+msgid "AI-assisted products"
+msgstr "AI-assisted products"
+
+#: src/routes/[locale=locale]/+page.svelte
+msgid "Fintech & infrastructure"
+msgstr "Fintech & infrastructure"
+
+#: src/routes/[locale=locale]/+page.svelte
+msgid "Color science & imaging"
+msgstr "Color science & imaging"
+
+#: src/routes/[locale=locale]/+page.svelte
+msgid "SaaS systems"
+msgstr "SaaS systems"
+
+#: src/routes/[locale=locale]/+page.svelte
+msgid "UX engineering"
+msgstr "UX engineering"
+
+#: src/routes/[locale=locale]/+page.svelte
+msgid "Wildfire Prediction System"
+msgstr "Wildfire Prediction System"
+
+#: src/routes/[locale=locale]/+page.svelte
+msgid "An AI-assisted environmental monitoring platform designed to predict wildfire risks using satellite imagery, weather patterns, and real-time sensor analysis."
+msgstr "An AI-assisted environmental monitoring platform designed to predict wildfire risks using satellite imagery, weather patterns, and real-time sensor analysis."
+
+#: src/routes/[locale=locale]/+page.svelte
+msgid "Machine Learning"
+msgstr "Machine Learning"
+
+#: src/routes/[locale=locale]/+page.svelte
+msgid "Remote Sensing"
+msgstr "Remote Sensing"
+
+#: src/routes/[locale=locale]/+page.svelte
+msgid "Environmental AI"
+msgstr "Environmental AI"
+
+#: src/routes/[locale=locale]/+page.svelte
+msgid "Prediction Systems"
+msgstr "Prediction Systems"
+
+#: src/routes/[locale=locale]/+page.svelte
+msgid "Lutof"
+msgstr "Lutof"
+
+#: src/routes/[locale=locale]/+page.svelte
+msgid "A web-based LUT comparison and color grading toolkit focused on cinematic workflows, real-time previews, and professional color transformation pipelines."
+msgstr "A web-based LUT comparison and color grading toolkit focused on cinematic workflows, real-time previews, and professional color transformation pipelines."
+
+#: src/routes/[locale=locale]/+page.svelte
+msgid "WebGL"
+msgstr "WebGL"
+
+#: src/routes/[locale=locale]/+page.svelte
+msgid "Color Science"
+msgstr "Color Science"
+
+#: src/routes/[locale=locale]/+page.svelte
+msgid "PPG Vision"
+msgstr "PPG Vision"
+
+#: src/routes/[locale=locale]/+page.svelte
+msgid "A camera-based photoplethysmography system that analyzes subtle visual signals to generate health-related biometric insights."
+msgstr "A camera-based photoplethysmography system that analyzes subtle visual signals to generate health-related biometric insights."
+
+#: src/routes/[locale=locale]/+page.svelte
+msgid "Computer Vision"
+msgstr "Computer Vision"
+
+#: src/routes/[locale=locale]/+page.svelte
+msgid "Signal Processing"
+msgstr "Signal Processing"
+
+#: src/routes/[locale=locale]/+page.svelte
+msgid "A structured academic library system built for university students to access organized course files, PDFs, and materials through a clean web interface."
+msgstr "A structured academic library system built for university students to access organized course files, PDFs, and materials through a clean web interface."
+
+#: src/routes/[locale=locale]/+page.svelte
+msgid "Minimalism"
+msgstr "Minimalism"
+
+#: src/routes/[locale=locale]/+page.svelte
+msgid "Educational Tools"
+msgstr "Educational Tools"
+
 #: src/routes/[locale=locale]/+page.svelte
 msgid "Computer Engineering"
 msgstr "Computer Engineering"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
-msgid "University Technical Institute"
-msgstr "University Technical Institute"
+msgid "Karabuk University"
+msgstr "Karabuk University"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
-msgid "Pursuing degree with focus on Distributed Systems and Software Architecture."
-msgstr "Pursuing degree with focus on Distributed Systems and Software Architecture."
+msgid "Currently studying computer engineering with interests in software architecture, distributed systems, and practical product engineering."
+msgstr "Currently studying computer engineering with interests in software architecture, distributed systems, and practical product engineering."
 
-#: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
+msgid "Independent Software Engineer"
+msgstr "Independent Software Engineer"
+
+#: src/routes/[locale=locale]/+page.svelte
+msgid "Freelance / Remote"
+msgstr "Freelance / Remote"
+
+#: src/routes/[locale=locale]/+page.svelte
+msgid "Building websites, tools, templates, and internal systems for clients and personal projects. Mostly focused on WordPress ecosystems, frontend development, and product-oriented web experiences."
+msgstr "Building websites, tools, templates, and internal systems for clients and personal projects. Mostly focused on WordPress ecosystems, frontend development, and product-oriented web experiences."
+
+#: src/routes/[locale=locale]/+page.svelte
+msgid "Exploring AI & tech infrastructure"
+msgstr "Exploring AI & tech infrastructure"
+
+#: src/routes/[locale=locale]/+page.svelte
+msgid "Tech Monolith Inc."
+msgstr "Tech Monolith Inc."
+
+#: src/routes/[locale=locale]/+page.svelte
+msgid "Working on projects related to computer vision, environmental prediction systems, realtime rendering, and imaging workflows."
+msgstr "Working on projects related to computer vision, environmental prediction systems, realtime rendering, and imaging workflows."
+
 #: src/routes/[locale=locale]/+page.svelte
 msgid "Skills"
 msgstr "Skills"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
 msgid "Projects"
 msgstr "Projects"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
 msgid "Experience"
 msgstr "Experience"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
 msgid "Vision"
 msgstr "Vision"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
 msgid "Toggle menu"
 msgstr "Toggle menu"
 
-#: src/routes/+page.svelte
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
 msgid "CONTACT"
 msgstr "CONTACT"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
 msgid "Mohammad Ali - Computer Engineer"
 msgstr "Mohammad Ali - Computer Engineer"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
 msgid "IDENTITY / 001"
 msgstr "IDENTITY / 001"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
-msgid "M. ALI"
-msgstr "M. ALI"
+msgid "Mohamad Ali"
+msgstr "Mohamad Ali"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
-msgid "3rd Year <0>Computer Engineer</0> & Independent Builder. Modern Web Experiences, AI, Fintech, SaaS."
-msgstr "3rd Year <0>Computer Engineer</0> & Independent Builder. Modern Web Experiences, AI, Fintech, SaaS."
+msgid "4th Year <0>Computer engineering</0> student, independent builder, and web developer based in Türkiye."
+msgstr "4th Year <0>Computer engineering</0> student, independent builder, and web developer based in Türkiye."
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
 msgid "SYSTEM STATE: ACTIVE"
 msgstr "SYSTEM STATE: ACTIVE"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
-msgid "LOC: 40.7128° N, 74.0060° W"
-msgstr "LOC: 40.7128° N, 74.0060° W"
+msgid "LOC: 41.213° N, 32.654° E"
+msgstr "LOC: 41.213° N, 32.654° E"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
 msgid "PHILOSOPHY"
 msgstr "PHILOSOPHY"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
-msgid "Architectural Intent"
-msgstr "Architectural Intent"
+msgid "Software that feels clear"
+msgstr "Software that feels clear"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
-msgid "I approach code not just as a set of instructions, but as a structural discipline. Similar to brutalist architecture, my work prioritizes honesty in materials—meaning clean logic, robust data structures, and uncompromised performance. Every module is a load-bearing element in the digital ecosystem."
-msgstr "I approach code not just as a set of instructions, but as a structural discipline. Similar to brutalist architecture, my work prioritizes honesty in materials—meaning clean logic, robust data structures, and uncompromised performance. Every module is a load-bearing element in the digital ecosystem."
+msgid "I build modern web products, experimental tools, and systems around AI, fintech, visual workflows, and developer experience. Most of my work starts from curiosity — trying to understand how something works deeply enough to recreate it in a simpler or more usable way."
+msgstr "I build modern web products, experimental tools, and systems around AI, fintech, visual workflows, and developer experience. Most of my work starts from curiosity — trying to understand how something works deeply enough to recreate it in a simpler or more usable way."
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
-msgid "The goal is to eliminate the unnecessary. By adhering to the principles of Swiss Modernism, I create interfaces where typography dictates the rhythm and whitespace provides the clarity required for complex technical tasks."
-msgstr "The goal is to eliminate the unnecessary. By adhering to the principles of Swiss Modernism, I create interfaces where typography dictates the rhythm and whitespace provides the clarity required for complex technical tasks."
+msgid "Not everything needs to become a massive framework or an overengineered system. Sometimes the best solution is the one that stays understandable six months later, performs well, and lets people focus on what they actually want to do."
+msgstr "Not everything needs to become a massive framework or an overengineered system. Sometimes the best solution is the one that stays understandable six months later, performs well, and lets people focus on what they actually want to do."
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
 msgid "CAPABILITIES / CORE"
 msgstr "CAPABILITIES / CORE"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
 msgid "WORKS / INDEX"
 msgstr "WORKS / INDEX"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
 msgid "north_east"
 msgstr "north_east"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
 msgid "CHRONOLOGY"
 msgstr "CHRONOLOGY"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
 msgid "THE VISION"
 msgstr "THE VISION"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
-msgid "\"Simplicity is the ultimate structural integrity. We build not just for function, but for permanence in an ephemeral digital age.\""
-msgstr "\"Simplicity is the ultimate structural integrity. We build not just for function, but for permanence in an ephemeral digital age.\""
+msgid "\"I enjoy building things that sit between engineering and design: tools that are technically solid but still feel clean, fast, and human to use.\""
+msgstr "\"I enjoy building things that sit between engineering and design: tools that are technically solid but still feel clean, fast, and human to use.\""
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
 msgid "TRANSMISSION"
 msgstr "TRANSMISSION"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
-msgid "Initiate Connect"
-msgstr "Initiate Connect"
+msgid "Contact"
+msgstr "Contact"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
 msgid "SENDER_NAME"
 msgstr "SENDER_NAME"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
 msgid "Enter Name"
 msgstr "Enter Name"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
 msgid "SENDER_EMAIL"
 msgstr "SENDER_EMAIL"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
 msgid "Enter Email"
 msgstr "Enter Email"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
 msgid "MESSAGE_PAYLOAD"
 msgstr "MESSAGE_PAYLOAD"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
 msgid "Describe the Mission"
 msgstr "Describe the Mission"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
 msgid "SEND_TRANSMISSION"
 msgstr "SEND_TRANSMISSION"
 
-#: src/routes/+page.svelte
-#: src/routes/[locale=locale]/+page.svelte
-msgid "© 2024 BUILT BY ARCHITECTURAL MONOLITH. ALL RIGHTS RESERVED."
-msgstr "© 2024 BUILT BY ARCHITECTURAL MONOLITH. ALL RIGHTS RESERVED."
+#~ msgid "© 2026 ALL RIGHTS RESERVED."
+#~ msgstr "© 2026 ALL RIGHTS RESERVED."
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
 msgid "GITHUB"
 msgstr "GITHUB"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
 msgid "LINKEDIN"
 msgstr "LINKEDIN"
 
-#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
 msgid "SOURCE"
 msgstr "SOURCE"
+
+#: src/routes/[locale=locale]/+page.svelte
+msgid "Copyleft 2026 BUILt WITH \"IHSAN\" NO RIGHTS RESERVED. Sharing is caring."
+msgstr "Copyleft 2026 BUILt WITH \"IHSAN\" NO RIGHTS RESERVED. Sharing is caring."

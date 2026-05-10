@@ -16,68 +16,68 @@
 	const skills = [
 		{
 			title: 'Web Dev',
-			items: ['React / Next.js', 'TypeScript', 'Tailwind CSS', 'WebGL / Three.js']
+			items: ['React / Next.js', 'TypeScript', 'SvelteKit', 'WebGL / Three.js']
 		},
 		{
 			title: 'Backend',
-			items: ['Node.js / Go', 'PostgreSQL', 'Redis / Kafka', 'Python / FastAPI']
+			items: ['Node.js', 'PostgreSQL', 'Redis', 'Python']
 		},
 		{
 			title: 'Tools',
-			items: ['Docker / K8s', 'Git / CI/CD', 'Figma Arch', 'Terraform']
+			items: ['Docker', 'Git / CI/CD', 'Figma Arch', 'Terraform']
 		},
 		{
 			title: 'Interests',
-			items: ['Neural Networks', 'Fintech Pipes', 'SaaS Architecture', 'UX Engineering']
+			items: ['AI-assisted products', 'Fintech & infrastructure', 'Color science & imaging', 'SaaS systems', 'UX engineering']
 		}
 	];
 
 	const projects = [
 		{
 			id: 'PROJECT_01',
-			title: 'Synthetix Engine',
-			description: 'A real-time AI processing pipeline for high-frequency financial data analysis.',
-			tags: ['Rust', 'WASM']
+			title: 'Wildfire Prediction System',
+			description: 'An AI-assisted environmental monitoring platform designed to predict wildfire risks using satellite imagery, weather patterns, and real-time sensor analysis.',
+			tags: ['Machine Learning', 'Remote Sensing', 'Environmental AI', 'Prediction Systems']
 		},
 		{
 			id: 'PROJECT_02',
-			title: 'Monolith OS',
-			description: 'A browser-based operating system built for ultra-minimalist focus workflows.',
-			tags: ['Next.js', 'Zustand']
+			title: 'Lutof',
+			description: 'A web-based LUT comparison and color grading toolkit focused on cinematic workflows, real-time previews, and professional color transformation pipelines.',
+			tags: ['TypeScript', 'WebGL', 'WASM', 'Color Science']
 		},
 		{
 			id: 'PROJECT_03',
-			title: 'Krypton UI',
-			description: 'Component system for data-heavy fintech dashboards emphasizing clarity.',
-			tags: ['Storybook', 'Tailwind']
+			title: 'PPG Vision',
+			description: 'A camera-based photoplethysmography system that analyzes subtle visual signals to generate health-related biometric insights.',
+			tags: ['Computer Vision', 'AI', 'Signal Processing']
 		},
 		{
-			id: 'PROJECT_04',
-			title: 'Neural Graph',
-			description: 'Visualizing complex AI decision trees in 3D space using WebGL.',
-			tags: ['Three.js', 'Python']
-		}
+		id: 'PROJECT_04',
+		title: 'lkwano',
+		description: 'A structured academic library system built for university students to access organized course files, PDFs, and materials through a clean web interface.',
+		tags: ['SvelteKit', 'Minimalism', 'Educational Tools']
+		},
 	];
 
 	const experience = [
 		{
-			role: 'Architectural Lead',
-			company: 'Freelance / Remote',
-			period: '2023 — PRESENT',
-			description: 'Building custom SaaS foundations for early-stage fintech startups. Focus on scalability and DX.'
-		},
-		{
-			role: 'Full Stack Engineer',
-			company: 'Tech Monolith Inc.',
-			period: '2022 — 2023',
-			description: 'Maintained core infrastructure for high-traffic e-commerce platforms using modern stacks.'
-		},
-		{
 			role: 'Computer Engineering',
-			company: 'University Technical Institute',
-			period: '2021 — PRESENT',
-			description: 'Pursuing degree with focus on Distributed Systems and Software Architecture.'
-		}
+			company: 'Karabuk University',
+			period: '2022 — PRESENT',
+			description: 'Currently studying computer engineering with interests in software architecture, distributed systems, and practical product engineering.'
+		},
+		{
+			role: 'Independent Software Engineer',
+			company: 'Freelance / Remote',
+			period: '2022 — PRESENT',
+			description: 'Building websites, tools, templates, and internal systems for clients and personal projects. Mostly focused on WordPress ecosystems, frontend development, and product-oriented web experiences.'
+		},
+		{
+			role: 'Exploring AI & tech infrastructure',
+			company: 'Tech Monolith Inc.',
+			period: '∞ — Present',
+			description: 'Working on projects related to computer vision, environmental prediction systems, realtime rendering, and imaging workflows.'
+		},
 	];
 
 	const navItems = [
@@ -108,6 +108,12 @@
 			return `${base} text-primary border-b-2 border-primary`;
 		}
 		return `${base} text-on-surface-variant hover:text-primary`;
+	}
+	function scrollToContact() {
+		const contactSection = document.getElementById('contact');
+		if (contactSection) {
+			contactSection.scrollIntoView({ behavior: 'smooth' });
+		}
 	}
 </script>
 
@@ -164,7 +170,7 @@
 		</button>
 
 		<!-- Desktop Contact Button -->
-		<button class="hidden md:block font-headline font-bold tracking-tighter uppercase text-sm text-primary hover:bg-surface-container-high px-4 py-2 min-h-[44px] transition-all active:scale-[0.99]">CONTACT</button>
+		<button onclick={scrollToContact} class="hidden md:block font-headline font-bold tracking-tighter uppercase text-sm text-primary bg-surface-container-high px-4 py-2 min-h-[44px] transition-all active:scale-[0.99]">CONTACT</button>
 	</div>
 
 	<!-- Mobile Navigation Dropdown -->
@@ -180,7 +186,7 @@
 						{item.label}
 					</a>
 				{/each}
-				<button class="font-headline font-bold tracking-tighter uppercase text-sm text-primary px-4 py-3 min-h-[44px] text-left hover:bg-surface-container-high transition-all">CONTACT</button>
+				<button onclick={scrollToContact} class="font-headline font-bold tracking-tighter uppercase text-sm text-primary px-4 py-3 min-h-[44px] bg-surface-container-high hover:bg-surface-container-medium transition-all">CONTACT</button>
 			</div>
 		</div>
 	{/if}
@@ -198,20 +204,21 @@
 					height="120"
 					loading="eager"
 					decoding="async"
-					class="w-24 h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 object-cover rounded-sm border border-outline-variant/30"
+					class="w-24 h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 object-cover border border-outline-variant/30"
 				/>
 			</div>
 			<span class="technical-label text-on-surface-variant mb-4 md:mb-6 block">IDENTITY / 001</span>
-			<h1 class="text-5xl md:text-7xl lg:text-[10rem] font-headline font-bold tracking-tighter leading-[0.85] text-on-surface uppercase mb-6 md:mb-12">M. ALI</h1>
+			<h1 class="text-5xl md:text-7xl lg:text-[5rem] font-headline font-bold tracking-tighter leading-[0.85] text-on-surface uppercase mb-6 md:mb-12">Mohamad Ali</h1>
 			<div class="max-w-xl md:max-w-3xl">
 				<p class="text-lg md:text-2xl lg:text-3xl font-light text-on-surface-variant leading-tight">
-					3rd Year <span class="text-on-surface font-medium">Computer Engineer</span> & Independent Builder. Modern Web Experiences, AI, Fintech, SaaS.
+					4th Year <span class="text-on-surface font-medium">Computer engineering</span> student, independent builder, and web developer based in Türkiye.
+					
 				</p>
 			</div>
 		</div>
 		<div class="md:col-span-2 hidden md:flex flex-col items-end">
 			<span class="technical-label text-on-surface-variant text-right">SYSTEM STATE: ACTIVE</span>
-			<span class="technical-label text-on-surface-variant text-right">LOC: 40.7128° N, 74.0060° W</span>
+			<span class="technical-label text-on-surface-variant text-right">LOC: 41.213° N, 32.654° E</span>
 		</div>
 	</section>
 
@@ -221,13 +228,13 @@
 			<span class="technical-label text-on-surface-variant">PHILOSOPHY</span>
 		</div>
 		<div class="md:col-span-8">
-			<h2 class="text-2xl md:text-4xl font-headline font-bold tracking-tighter uppercase mb-6 md:mb-8">Architectural Intent</h2>
+			<h2 class="text-2xl md:text-4xl font-headline font-bold tracking-tighter uppercase mb-6 md:mb-8">Software that feels clear</h2>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
 				<p class="text-on-surface-variant leading-relaxed">
-					I approach code not just as a set of instructions, but as a structural discipline. Similar to brutalist architecture, my work prioritizes honesty in materials—meaning clean logic, robust data structures, and uncompromised performance. Every module is a load-bearing element in the digital ecosystem.
+					I build modern web products, experimental tools, and systems around AI, fintech, visual workflows, and developer experience. Most of my work starts from curiosity — trying to understand how something works deeply enough to recreate it in a simpler or more usable way.
 				</p>
 				<p class="text-on-surface-variant leading-relaxed">
-					The goal is to eliminate the unnecessary. By adhering to the principles of Swiss Modernism, I create interfaces where typography dictates the rhythm and whitespace provides the clarity required for complex technical tasks.
+					Not everything needs to become a massive framework or an overengineered system. Sometimes the best solution is the one that stays understandable six months later, performs well, and lets people focus on what they actually want to do.
 				</p>
 			</div>
 		</div>
@@ -303,10 +310,11 @@
 	</section>
 
 	<!-- Vision Section -->
-	<section class="px-4 md:px-12 py-24 md:py-48 bg-surface-container-low border-b border-outline-variant/10 text-center" id="vision">
+	<section class="px-4 md:px-12 py-24 bg-surface-container-low border-b border-outline-variant/10 text-center" id="vision">
 		<span class="technical-label text-on-surface-variant mb-8 md:mb-12 block">THE VISION</span>
-		<blockquote class="text-2xl md:text-4xl lg:text-6xl font-headline font-bold tracking-tighter uppercase leading-[0.9] max-w-6xl mx-auto text-on-surface">
-			"Simplicity is the ultimate structural integrity. We build not just for function, but for permanence in an ephemeral digital age."
+		<blockquote class="text-2xl md:text-4xl lg:text-4xl font-headline font-bold tracking-tighter uppercase max-w-[35ch] max-w-6xl mx-auto text-on-surface">
+			"I enjoy building things that sit between engineering and design:
+tools that are technically solid but still feel clean, fast, and human to use."
 		</blockquote>
 	</section>
 
@@ -314,7 +322,7 @@
 	<section class="px-4 md:px-12 py-16 md:py-24 grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-8 bg-surface-container-highest" id="contact">
 		<div class="md:col-span-4">
 			<span class="technical-label text-on-surface-variant">TRANSMISSION</span>
-			<h2 class="text-2xl md:text-4xl font-headline font-bold uppercase tracking-tighter mt-4 mb-4 md:mb-0">Initiate Connect</h2>
+			<h2 class="text-2xl md:text-4xl font-headline font-bold uppercase tracking-tighter mt-4 mb-4 md:mb-0">Contact</h2>
 		</div>
 		<div class="md:col-span-8">
 			<form class="grid grid-cols-1 md:grid-cols-2 gap-3" onsubmit={handleSubmit}>
@@ -363,11 +371,11 @@
 <!-- Footer -->
 <footer class="flex flex-col md:flex-row justify-between items-center px-4 md:px-12 py-10 md:py-16 w-full mt-auto bg-[#131313] border-t border-[#484848]/10">
 	<div class="font-headline text-[10px] tracking-[0.2em] uppercase text-on-surface-variant mb-6 md:mb-0 text-center md:text-left">
-		© 2024 BUILT BY ARCHITECTURAL MONOLITH. ALL RIGHTS RESERVED.
+		Copyleft 2026 BUILt WITH "IHSAN" NO RIGHTS RESERVED. Sharing is caring.
 	</div>
 	<div class="flex gap-8 md:gap-12">
-		<button class="font-headline text-[10px] tracking-[0.2em] uppercase text-on-surface-variant hover:text-white transition-colors duration-200 min-h-[44px] px-2">GITHUB</button>
-		<button class="font-headline text-[10px] tracking-[0.2em] uppercase text-on-surface-variant hover:text-white transition-colors duration-200 min-h-[44px] px-2">LINKEDIN</button>
-		<button class="font-headline text-[10px] tracking-[0.2em] uppercase text-on-surface-variant hover:text-white transition-colors duration-200 min-h-[44px] px-2">SOURCE</button>
+		<a class="content-center font-headline text-[10px] tracking-[0.2em] uppercase text-on-surface-variant hover:text-white transition-colors duration-200 min-h-[44px] px-2" href="https://github.com/malishehahbi" target="_blank">GITHUB</a>
+		<a class="content-center font-headline text-[10px] tracking-[0.2em] uppercase text-on-surface-variant hover:text-white transition-colors duration-200 min-h-[44px] px-2" href="https://www.linkedin.com/in/malishihabi" target="_blank">LINKEDIN</a>
+		<a class="content-center font-headline text-[10px] tracking-[0.2em] uppercase text-on-surface-variant hover:text-white transition-colors duration-200 min-h-[44px] px-2" href="https://github.com/malishehahbi" target="_blank">SOURCE</a>
 	</div>
 </footer>
