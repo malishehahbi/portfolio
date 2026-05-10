@@ -6,14 +6,14 @@ const config = {
 		adapter: adapter({
 			pages: 'build',
 			assets: 'build',
-			fallback: '404.html',
+			fallback: '',
 			precompress: false,
 			strict: true
 		}),
 		paths: {
 			// Change this to your GitHub repo name if not using custom domain
 			// e.g., base: '/repo-name'
-			base: ''
+			base: '/portfolio'
 		}
 	}
 };
