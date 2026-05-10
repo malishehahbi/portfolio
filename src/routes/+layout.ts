@@ -8,6 +8,9 @@ import type { LayoutLoad } from './$types';
 
 export type Locale = (typeof locales)[number];
 
+export const prerender = true;
+export const trailingSlash = 'always';
+
 const defaultLocale: Locale = 'ar';
 const rtlLocales = new Set<Locale>(['ar']);
 

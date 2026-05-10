@@ -1,6 +1,7 @@
 <script lang="ts">
 	import favicon from '$lib/assets/favicon.svg';
 	import LanguageToggle from '$lib/LanguageToggle.svelte';
+	import '../app.css';
 
 	let { children, data } = $props();
 

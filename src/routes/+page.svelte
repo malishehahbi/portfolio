@@ -1,21 +1,17 @@
-<script lang="ts">
-	import { page } from '$app/state';
-
-	const homeHref = $derived(`/${page.data.locale ?? 'ar'}`);
-</script>
-
 <svelte:head>
-	<title>404</title>
+	<title>Mohamad Ali</title>
+	<meta http-equiv="refresh" content="0; url=/ar/" />
+	<link rel="canonical" href="/ar/" />
 </svelte:head>
 
 <main class="min-h-screen bg-surface text-on-surface px-4">
 	<section class="min-h-screen flex flex-col items-center justify-center gap-6 text-center">
-		<h1 class="font-headline text-7xl font-bold tracking-tighter">404</h1>
+		<h1 class="font-headline text-4xl font-bold tracking-tighter">Mohamad Ali</h1>
 		<a
 			class="technical-label text-on-surface-variant hover:text-primary transition-colors"
-			href={homeHref}
+			href="/ar/"
 		>
-			Back to home
+			Enter
 		</a>
 	</section>
 </main>

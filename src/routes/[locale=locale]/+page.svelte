@@ -1,6 +1,5 @@
 <script lang="ts">
 	import Logo from '$lib/assets/logo.svg.svelte';
-	import '../../app.css';
 
 	let { data } = $props();
 
