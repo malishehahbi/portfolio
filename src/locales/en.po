@@ -315,3 +315,15 @@ msgstr "Experience"
 #: src/routes/+page.svelte
 msgid "Vision"
 msgstr "Vision"
+
+#: src/routes/+page.svelte
+msgid "Enter Name"
+msgstr "Enter Name"
+
+#: src/routes/+page.svelte
+msgid "Enter Email"
+msgstr "Enter Email"
+
+#: src/routes/+page.svelte
+msgid "Describe the Mission"
+msgstr "Describe the Mission"

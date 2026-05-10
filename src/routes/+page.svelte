@@ -317,8 +317,8 @@
 					<label class="technical-label text-on-surface-variant block mb-2" for="name">SENDER_NAME</label>
 					<input 
 						id="name"
-						class="w-full bg-transparent border-none focus:ring-0 text-on-surface placeholder:text-outline p-0 text-base md:text-lg min-h-[44px]"
-						placeholder="ENTER NAME" 
+						class="w-full bg-transparent border-none focus:ring-0 text-on-surface placeholder:uppercase text-outline p-0 text-base md:text-lg min-h-[44px]"
+						placeholder="Enter Name" 
 						type="text"
 						bind:value={formData.name}
 					/>
@@ -327,8 +327,8 @@
 					<label class="technical-label text-on-surface-variant block mb-2" for="email">SENDER_EMAIL</label>
 					<input 
 						id="email"
-						class="w-full bg-transparent border-none focus:ring-0 text-on-surface placeholder:text-outline p-0 text-base md:text-lg min-h-[44px]"
-						placeholder="ENTER EMAIL" 
+						class="w-full bg-transparent border-none focus:ring-0 text-on-surface placeholder:uppercase text-outline p-0 text-base md:text-lg min-h-[44px]"
+						placeholder="Enter Email" 
 						type="email"
 						bind:value={formData.email}
 					/>
@@ -337,8 +337,8 @@
 					<label class="technical-label text-on-surface-variant block mb-2" for="message">MESSAGE_PAYLOAD</label>
 					<textarea 
 						id="message"
-						class="w-full bg-transparent border-none focus:ring-0 text-on-surface placeholder:text-outline p-0 resize-none text-base md:text-lg" 
-						placeholder="DESCRIBE THE MISSION" 
+						class="w-full bg-transparent border-none focus:ring-0 text-on-surface placeholder: uppercase text-outline p-0 resize-none text-base md:text-lg" 
+						placeholder="Describe the Mission" 
 						rows="4"
 						bind:value={formData.message}
 					></textarea>
