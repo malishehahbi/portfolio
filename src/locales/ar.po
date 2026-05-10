@@ -298,4 +298,20 @@ msgstr "المصدر"
 
 #: src/lib/LanguageToggle.svelte
 msgid "Language"
-msgstr ""
+msgstr "الللغة"
+
+#: src/routes/+page.svelte
+msgid "Skills"
+msgstr "المهارات"
+
+#: src/routes/+page.svelte
+msgid "Projects"
+msgstr "المشاريع"
+
+#: src/routes/+page.svelte
+msgid "Experience"
+msgstr "خبرة"
+
+#: src/routes/+page.svelte
+msgid "Vision"
+msgstr "رؤية"

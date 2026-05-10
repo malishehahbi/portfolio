@@ -299,3 +299,19 @@ msgstr "SOURCE"
 #: src/lib/LanguageToggle.svelte
 msgid "Language"
 msgstr "Language"
+
+#: src/routes/+page.svelte
+msgid "Skills"
+msgstr "Skills"
+
+#: src/routes/+page.svelte
+msgid "Projects"
+msgstr "Projects"
+
+#: src/routes/+page.svelte
+msgid "Experience"
+msgstr "Experience"
+
+#: src/routes/+page.svelte
+msgid "Vision"
+msgstr "Vision"

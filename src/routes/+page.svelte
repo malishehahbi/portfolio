@@ -79,11 +79,11 @@
 	];
 
 	const navItems = [
-		{ id: 'skills', label: 'SKILLS' },
-		{ id: 'projects', label: 'PROJECTS' },
-		{ id: 'experience', label: 'EXPERIENCE' },
-		{ id: 'vision', label: 'VISION' }
-	];
+	{ id: 'skills', label: 'Skills' },
+	{ id: 'projects', label: 'Projects' },
+	{ id: 'experience', label: 'Experience' },
+	{ id: 'vision', label: 'Vision' }
+];
 
 	function handleSubmit(e: Event) {
 		e.preventDefault();
