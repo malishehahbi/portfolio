@@ -16,8 +16,11 @@ function normalizeLocale(locale: string | null): Locale {
 }
 
 export const load: LayoutLoad = async ({ url }) => {
-	const locale = normalizeLocale(url.searchParams.get('locale'));
+	const segments = url.pathname.split('/').filter(Boolean);
+	const locale = normalizeLocale(segments[0] ?? null);
 	const dir = rtlLocales.has(locale) ? 'rtl' : 'ltr';
+	const pathWithoutLocale = locales.includes(segments[0] as Locale) ? segments.slice(1) : segments;
+	const localizedPath = (targetLocale: Locale) => `/${[targetLocale, ...pathWithoutLocale].join('/')}`;
 
 	if (browser) {
 		await loadLocale(locale);
@@ -25,6 +28,11 @@ export const load: LayoutLoad = async ({ url }) => {
 
 	return {
 		locale,
-		dir
+		dir,
+		canonicalPath: localizedPath(locale),
+		alternateLinks: locales.map((alternateLocale) => ({
+			locale: alternateLocale,
+			path: localizedPath(alternateLocale)
+		}))
 	};
 };

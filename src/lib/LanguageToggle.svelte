@@ -15,9 +15,15 @@
 		if (nextLocale === locale) return;
 
 		const url = new URL(page.url);
-		url.searchParams.set('locale', nextLocale);
+		const segments = url.pathname.split('/').filter(Boolean);
 
-		goto(`${url.pathname}${url.search}${url.hash}`, {
+		if (segments[0] === 'en' || segments[0] === 'ar') {
+			segments[0] = nextLocale;
+		} else {
+			segments.unshift(nextLocale);
+		}
+
+		goto(`/${segments.join('/')}${url.search}${url.hash}`, {
 			keepFocus: true,
 			noScroll: true
 		});

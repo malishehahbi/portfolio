@@ -24,7 +24,7 @@ function normalizeLocale(locale: string | null): Locale {
 }
 
 export const handle: Handle = async ({ event, resolve }) => {
-	const locale = normalizeLocale(event.url.searchParams.get('locale'));
+	const locale = normalizeLocale(event.url.pathname.split('/').filter(Boolean)[0] ?? null);
 	const dir = rtlLocales.has(locale) ? 'rtl' : 'ltr';
 
 	return runWithLocale(locale, () =>

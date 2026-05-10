@@ -12,318 +12,398 @@ msgid "Language"
 msgstr "اللغة"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Web Dev"
 msgstr "تطوير الويب"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "React / Next.js"
 msgstr "React / Next.js"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "TypeScript"
 msgstr "TypeScript"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Tailwind CSS"
 msgstr "Tailwind CSS"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "WebGL / Three.js"
 msgstr "WebGL / Three.js"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Backend"
 msgstr "الخلفية"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Node.js / Go"
 msgstr "Node.js / Go"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "PostgreSQL"
 msgstr "PostgreSQL"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Redis / Kafka"
 msgstr "Redis / Kafka"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Python / FastAPI"
 msgstr "Python / FastAPI"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Tools"
 msgstr "الأدوات"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Docker / K8s"
 msgstr "Docker / K8s"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Git / CI/CD"
 msgstr "Git / CI/CD"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Figma Arch"
 msgstr "Figma Arch"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Terraform"
 msgstr "Terraform"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Interests"
 msgstr "الاهتمامات"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Neural Networks"
 msgstr "الشبكات العصبية"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Fintech Pipes"
 msgstr "أنابيب التقنية المالية"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "SaaS Architecture"
 msgstr "بنية SaaS"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "UX Engineering"
 msgstr "هندسة تجربة المستخدم"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Synthetix Engine"
 msgstr "محرك Synthetix"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "A real-time AI processing pipeline for high-frequency financial data analysis."
 msgstr "خط معالجة ذكاء اصطناعي آني لتحليل البيانات المالية عالية التردد."
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Rust"
 msgstr "Rust"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Monolith OS"
 msgstr "Monolith OS"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "A browser-based operating system built for ultra-minimalist focus workflows."
 msgstr "نظام تشغيل يعمل في المتصفح، مصمم لسير عمل مركّز وبالغ البساطة."
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Next.js"
 msgstr "Next.js"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Zustand"
 msgstr "Zustand"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Krypton UI"
 msgstr "Krypton UI"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Component system for data-heavy fintech dashboards emphasizing clarity."
 msgstr "نظام مكوّنات للوحات تحكم التقنية المالية الكثيفة بالبيانات، مع التركيز على الوضوح."
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Storybook"
 msgstr "Storybook"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Tailwind"
 msgstr "Tailwind"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Neural Graph"
 msgstr "الرسم البياني العصبي"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Visualizing complex AI decision trees in 3D space using WebGL."
 msgstr "تصوير أشجار قرارات الذكاء الاصطناعي المعقدة في فضاء ثلاثي الأبعاد باستخدام WebGL."
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Three.js"
 msgstr "Three.js"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Python"
 msgstr "Python"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Architectural Lead"
 msgstr "قائد معماري"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Freelance / Remote"
 msgstr "مستقل / عن بُعد"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Building custom SaaS foundations for early-stage fintech startups. Focus on scalability and DX."
 msgstr "بناء أسس SaaS مخصصة لشركات التقنية المالية الناشئة، مع التركيز على قابلية التوسع وتجربة المطوّر."
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Full Stack Engineer"
 msgstr "مهندس Full Stack"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Tech Monolith Inc."
 msgstr "Tech Monolith Inc."
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Maintained core infrastructure for high-traffic e-commerce platforms using modern stacks."
 msgstr "صيانة البنية التحتية الأساسية لمنصات التجارة الإلكترونية عالية الحركة باستخدام تقنيات حديثة."
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Computer Engineering"
 msgstr "هندسة الحاسوب"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "University Technical Institute"
 msgstr "المعهد التقني الجامعي"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Pursuing degree with focus on Distributed Systems and Software Architecture."
 msgstr "دراسة متخصصة في الأنظمة الموزعة وهندسة البرمجيات."
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Skills"
 msgstr "المهارات"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Projects"
 msgstr "المشاريع"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Experience"
 msgstr "الخبرة"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Vision"
 msgstr "الرؤية"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Toggle menu"
 msgstr "تبديل القائمة"
 
 #: src/routes/+page.svelte
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "CONTACT"
 msgstr "تواصل"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Mohammad Ali - Computer Engineer"
 msgstr "محمد علي - مهندس حاسوب"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "IDENTITY / 001"
 msgstr "الهوية / 001"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "M. ALI"
 msgstr "م. علي"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "3rd Year <0>Computer Engineer</0> & Independent Builder. Modern Web Experiences, AI, Fintech, SaaS."
 msgstr "طالب في السنة الثالثة <0>هندسة حاسوب</0> ومطوّر مستقل. تجارب ويب حديثة، ذكاء اصطناعي، تقنية مالية، SaaS."
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "SYSTEM STATE: ACTIVE"
 msgstr "حالة النظام: نشط"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "LOC: 40.7128° N, 74.0060° W"
 msgstr "الموقع: 40.7128° ش، 74.0060° غ"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "PHILOSOPHY"
 msgstr "الفلسفة"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Architectural Intent"
 msgstr "النية المعمارية"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "I approach code not just as a set of instructions, but as a structural discipline. Similar to brutalist architecture, my work prioritizes honesty in materials—meaning clean logic, robust data structures, and uncompromised performance. Every module is a load-bearing element in the digital ecosystem."
 msgstr "أتعامل مع الكود ليس كمجرد تعليمات، بل كانضباط هيكلي. على غرار العمارة الوحشية، يُعلي عملي من قيمة الصدق في المواد — أي المنطق النظيف، وهياكل البيانات المتينة، والأداء دون تنازل. كل وحدة هي عنصر حامل في المنظومة الرقمية."
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "The goal is to eliminate the unnecessary. By adhering to the principles of Swiss Modernism, I create interfaces where typography dictates the rhythm and whitespace provides the clarity required for complex technical tasks."
 msgstr "الهدف هو حذف كل ما هو غير ضروري. استناداً إلى مبادئ الحداثة السويسرية، أصمم واجهات تُحدد فيها الطباعة الإيقاع، والمساحة البيضاء توفر الوضوح اللازم للمهام التقنية المعقدة."
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "CAPABILITIES / CORE"
 msgstr "القدرات / الأساسية"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "WORKS / INDEX"
 msgstr "الأعمال / الفهرس"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "north_east"
 msgstr "north_east"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "CHRONOLOGY"
 msgstr "التسلسل الزمني"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "THE VISION"
 msgstr "الرؤية"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "\"Simplicity is the ultimate structural integrity. We build not just for function, but for permanence in an ephemeral digital age.\""
 msgstr "«البساطة هي الإتقان الهيكلي في أعلى صوره. نبني ليس من أجل الوظيفة فحسب، بل من أجل الديمومة في عصر رقمي عابر.»"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "TRANSMISSION"
 msgstr "الرسالة"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Initiate Connect"
 msgstr "ابدأ التواصل"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "SENDER_NAME"
 msgstr "اسم_المرسل"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Enter Name"
 msgstr "أدخل الاسم"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "SENDER_EMAIL"
 msgstr "بريد_المرسل"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Enter Email"
 msgstr "أدخل البريد الإلكتروني"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "MESSAGE_PAYLOAD"
 msgstr "محتوى_الرسالة"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "Describe the Mission"
 msgstr "صِف المهمة"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "SEND_TRANSMISSION"
 msgstr "إرسال_الرسالة"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "© 2024 BUILT BY ARCHITECTURAL MONOLITH. ALL RIGHTS RESERVED."
 msgstr "© 2024 بُني بواسطة ARCHITECTURAL MONOLITH. جميع الحقوق محفوظة."
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "GITHUB"
 msgstr "GITHUB"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "LINKEDIN"
 msgstr "LINKEDIN"
 
 #: src/routes/+page.svelte
+#: src/routes/[locale=locale]/+page.svelte
 msgid "SOURCE"
 msgstr "المصدر"

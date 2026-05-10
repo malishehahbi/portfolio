@@ -12,6 +12,11 @@
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
+	<link rel="canonical" href={data.canonicalPath} />
+	{#each data.alternateLinks as alternate}
+		<link rel="alternate" hreflang={alternate.locale} href={alternate.path} />
+	{/each}
+	<link rel="alternate" hreflang="x-default" href="/ar" />
 </svelte:head>
 
 <div class="fixed bottom-4 right-4 z-[60] md:bottom-6 md:right-6">

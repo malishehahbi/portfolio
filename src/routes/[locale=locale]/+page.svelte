@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Logo from '$lib/assets/logo.svg.svelte';
-	import '../app.css';
+	import '../../app.css';
 
 	let { data } = $props();
 
@@ -87,7 +87,7 @@
 		{ id: 'vision', label: 'Vision' }
 	];
 
-	const homeHref = $derived(`/?locale=${data.locale}`);
+	const homeHref = $derived(`/${data.locale}`);
 
 	function handleSubmit(e: Event) {
 		e.preventDefault();
