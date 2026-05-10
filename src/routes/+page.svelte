@@ -2,6 +2,8 @@
 	import Logo from '$lib/assets/logo.svg.svelte';
 	import '../app.css';
 
+	let { data } = $props();
+
 	let formData = {
 		name: '',
 		email: '',
@@ -79,11 +81,13 @@
 	];
 
 	const navItems = [
-	{ id: 'skills', label: 'Skills' },
-	{ id: 'projects', label: 'Projects' },
-	{ id: 'experience', label: 'Experience' },
-	{ id: 'vision', label: 'Vision' }
-];
+		{ id: 'skills', label: 'Skills' },
+		{ id: 'projects', label: 'Projects' },
+		{ id: 'experience', label: 'Experience' },
+		{ id: 'vision', label: 'Vision' }
+	];
+
+	const homeHref = $derived(`/?locale=${data.locale}`);
 
 	function handleSubmit(e: Event) {
 		e.preventDefault();
@@ -135,10 +139,11 @@
 />
 
 <!-- Top Navigation -->
-<nav class="fixed top-0 w-full z-50 bg-[#0e0e0e]/95 backdrop-blur-sm border-b border-[#484848]/20">
+<nav class="sticky top-0 w-full z-50 bg-[#0e0e0e]/95 backdrop-blur-sm border-b border-[#484848]/20">
 	<div class="flex justify-between items-center px-4 md:px-12 py-4 md:py-6">
-		<div class="text-lg md:text-xl font-headline font-bold tracking-tighter text-primary uppercase"><Logo/>
-</div>
+		<a href={homeHref} class="text-lg md:text-xl font-headline font-bold tracking-tighter text-primary uppercase">
+			<Logo/>
+		</a>
 		
 		<!-- Desktop Navigation -->
 		<div class="hidden md:flex gap-12">
@@ -181,7 +186,7 @@
 	{/if}
 </nav>
 
-<main class="pt-20 md:pt-32">
+<main>
 	<!-- Hero Section -->
 	<section class="px-4 md:px-12 py-16 md:py-48 grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-8 items-end border-b border-outline-variant/10">
 		<div class="md:col-span-10">
@@ -364,4 +369,3 @@
 		<button class="font-headline text-[10px] tracking-[0.2em] uppercase text-on-surface-variant hover:text-white transition-colors duration-200 min-h-[44px] px-2">SOURCE</button>
 	</div>
 </footer>
-

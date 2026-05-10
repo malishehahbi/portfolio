@@ -80,6 +80,10 @@
 }
 
 @layer base {
+  section,nav,footer {
+    max-width: 1200px;
+    margin-inline: auto;
+  }
   html {
     font-family: var(--font-body);
     background-color: var(--color-surface);
