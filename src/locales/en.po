@@ -344,3 +344,7 @@ msgstr "SOURCE"
 #: src/routes/[locale=locale]/+page.svelte
 msgid "Copyleft 2026 BUILt WITH \"IHSAN\" NO RIGHTS RESERVED. Sharing is caring."
 msgstr "Copyleft 2026 BUILt WITH \"IHSAN\" NO RIGHTS RESERVED. Sharing is caring."
+
+#: src/routes/+error.svelte
+msgid "Back to home"
+msgstr "Back to home"
