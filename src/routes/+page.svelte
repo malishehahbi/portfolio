@@ -317,8 +317,9 @@
 			<h2 class="text-2xl md:text-4xl font-headline font-bold uppercase tracking-tighter mt-4 mb-4 md:mb-0">Initiate Connect</h2>
 		</div>
 		<div class="md:col-span-8">
-			<form class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8" onsubmit={handleSubmit}>
-				<div class="border-b border-outline-variant py-3 md:py-4">
+			<form class="grid grid-cols-1 md:grid-cols-2 gap-3" onsubmit={handleSubmit}>
+			<div class="col-span-12 flex flex-row gap-4 md:gap-8">
+				<div class="flex-1 border-b border-outline-variant py-3 md:py-4">
 					<label class="technical-label text-on-surface-variant block mb-2" for="name">SENDER_NAME</label>
 					<input 
 						id="name"
@@ -328,7 +329,7 @@
 						bind:value={formData.name}
 					/>
 				</div>
-				<div class="border-b border-outline-variant py-3 md:py-4">
+				<div class="flex-1 border-b border-outline-variant py-3 md:py-4">
 					<label class="technical-label text-on-surface-variant block mb-2" for="email">SENDER_EMAIL</label>
 					<input 
 						id="email"
@@ -338,6 +339,7 @@
 						bind:value={formData.email}
 					/>
 				</div>
+			</div>
 				<div class="col-span-12 border-b border-outline-variant py-3 md:py-4">
 					<label class="technical-label text-on-surface-variant block mb-2" for="message">MESSAGE_PAYLOAD</label>
 					<textarea 

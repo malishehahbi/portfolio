@@ -7,6 +7,10 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: src/lib/LanguageToggle.svelte
+msgid "Language"
+msgstr "Language"
+
 #: src/routes/+page.svelte
 msgid "Web Dev"
 msgstr "Web Dev"
@@ -184,6 +188,22 @@ msgid "Pursuing degree with focus on Distributed Systems and Software Architectu
 msgstr "Pursuing degree with focus on Distributed Systems and Software Architecture."
 
 #: src/routes/+page.svelte
+msgid "Skills"
+msgstr "Skills"
+
+#: src/routes/+page.svelte
+msgid "Projects"
+msgstr "Projects"
+
+#: src/routes/+page.svelte
+msgid "Experience"
+msgstr "Experience"
+
+#: src/routes/+page.svelte
+msgid "Vision"
+msgstr "Vision"
+
+#: src/routes/+page.svelte
 msgid "Toggle menu"
 msgstr "Toggle menu"
 
@@ -269,12 +289,24 @@ msgid "SENDER_NAME"
 msgstr "SENDER_NAME"
 
 #: src/routes/+page.svelte
+msgid "Enter Name"
+msgstr "Enter Name"
+
+#: src/routes/+page.svelte
 msgid "SENDER_EMAIL"
 msgstr "SENDER_EMAIL"
 
 #: src/routes/+page.svelte
+msgid "Enter Email"
+msgstr "Enter Email"
+
+#: src/routes/+page.svelte
 msgid "MESSAGE_PAYLOAD"
 msgstr "MESSAGE_PAYLOAD"
+
+#: src/routes/+page.svelte
+msgid "Describe the Mission"
+msgstr "Describe the Mission"
 
 #: src/routes/+page.svelte
 msgid "SEND_TRANSMISSION"
@@ -295,35 +327,3 @@ msgstr "LINKEDIN"
 #: src/routes/+page.svelte
 msgid "SOURCE"
 msgstr "SOURCE"
-
-#: src/lib/LanguageToggle.svelte
-msgid "Language"
-msgstr "Language"
-
-#: src/routes/+page.svelte
-msgid "Skills"
-msgstr "Skills"
-
-#: src/routes/+page.svelte
-msgid "Projects"
-msgstr "Projects"
-
-#: src/routes/+page.svelte
-msgid "Experience"
-msgstr "Experience"
-
-#: src/routes/+page.svelte
-msgid "Vision"
-msgstr "Vision"
-
-#: src/routes/+page.svelte
-msgid "Enter Name"
-msgstr "Enter Name"
-
-#: src/routes/+page.svelte
-msgid "Enter Email"
-msgstr "Enter Email"
-
-#: src/routes/+page.svelte
-msgid "Describe the Mission"
-msgstr "Describe the Mission"

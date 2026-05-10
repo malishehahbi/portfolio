@@ -7,6 +7,10 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: src/lib/LanguageToggle.svelte
+msgid "Language"
+msgstr "اللغة"
+
 #: src/routes/+page.svelte
 msgid "Web Dev"
 msgstr "تطوير الويب"
@@ -29,7 +33,7 @@ msgstr "WebGL / Three.js"
 
 #: src/routes/+page.svelte
 msgid "Backend"
-msgstr "الواجهة الخلفية"
+msgstr "الخلفية"
 
 #: src/routes/+page.svelte
 msgid "Node.js / Go"
@@ -77,11 +81,11 @@ msgstr "الشبكات العصبية"
 
 #: src/routes/+page.svelte
 msgid "Fintech Pipes"
-msgstr "أنابيب التكنولوجيا المالية"
+msgstr "أنابيب التقنية المالية"
 
 #: src/routes/+page.svelte
 msgid "SaaS Architecture"
-msgstr "هندسة SaaS"
+msgstr "بنية SaaS"
 
 #: src/routes/+page.svelte
 msgid "UX Engineering"
@@ -93,7 +97,7 @@ msgstr "محرك Synthetix"
 
 #: src/routes/+page.svelte
 msgid "A real-time AI processing pipeline for high-frequency financial data analysis."
-msgstr "خط أنابيب معالجة ذكاء اصطناعي فوري لتحليل البيانات المالية عالية التردد."
+msgstr "خط معالجة ذكاء اصطناعي آني لتحليل البيانات المالية عالية التردد."
 
 #: src/routes/+page.svelte
 msgid "Rust"
@@ -101,11 +105,11 @@ msgstr "Rust"
 
 #: src/routes/+page.svelte
 msgid "Monolith OS"
-msgstr "نظام تشغيل Monolith"
+msgstr "Monolith OS"
 
 #: src/routes/+page.svelte
 msgid "A browser-based operating system built for ultra-minimalist focus workflows."
-msgstr "نظام تشغيل قائم على المتصفح مبني لسير عمل شديد البساطة والتركيز."
+msgstr "نظام تشغيل يعمل في المتصفح، مصمم لسير عمل مركّز وبالغ البساطة."
 
 #: src/routes/+page.svelte
 msgid "Next.js"
@@ -121,7 +125,7 @@ msgstr "Krypton UI"
 
 #: src/routes/+page.svelte
 msgid "Component system for data-heavy fintech dashboards emphasizing clarity."
-msgstr "نظام مكونات للوحات تحكم التكنولوجيا المالية الثقيلة البيانات مع التركيز على الوضوح."
+msgstr "نظام مكوّنات للوحات تحكم التقنية المالية الكثيفة بالبيانات، مع التركيز على الوضوح."
 
 #: src/routes/+page.svelte
 msgid "Storybook"
@@ -137,7 +141,7 @@ msgstr "الرسم البياني العصبي"
 
 #: src/routes/+page.svelte
 msgid "Visualizing complex AI decision trees in 3D space using WebGL."
-msgstr "تصور أشجار قرار الذكاء الاصطناعي المعقدة في فضاء ثلاثي الأبعاد باستخدام WebGL."
+msgstr "تصوير أشجار قرارات الذكاء الاصطناعي المعقدة في فضاء ثلاثي الأبعاد باستخدام WebGL."
 
 #: src/routes/+page.svelte
 msgid "Three.js"
@@ -153,11 +157,11 @@ msgstr "قائد معماري"
 
 #: src/routes/+page.svelte
 msgid "Freelance / Remote"
-msgstr "عمل حر / عن بُعد"
+msgstr "مستقل / عن بُعد"
 
 #: src/routes/+page.svelte
 msgid "Building custom SaaS foundations for early-stage fintech startups. Focus on scalability and DX."
-msgstr "بناء أسس SaaS مخصصة للشركات الناشئة في مجال التكنولوجيا المالية في مراحلها المبكرة. التركيز على قابلية التوسع وتجربة المطور."
+msgstr "بناء أسس SaaS مخصصة لشركات التقنية المالية الناشئة، مع التركيز على قابلية التوسع وتجربة المطوّر."
 
 #: src/routes/+page.svelte
 msgid "Full Stack Engineer"
@@ -165,11 +169,11 @@ msgstr "مهندس Full Stack"
 
 #: src/routes/+page.svelte
 msgid "Tech Monolith Inc."
-msgstr "شركة Tech Monolith"
+msgstr "Tech Monolith Inc."
 
 #: src/routes/+page.svelte
 msgid "Maintained core infrastructure for high-traffic e-commerce platforms using modern stacks."
-msgstr "صيانة البنية التحتية الأساسية لمنصات التجارة الإلكترونية عالية الحركة باستخدام مجموعات تقنية حديثة."
+msgstr "صيانة البنية التحتية الأساسية لمنصات التجارة الإلكترونية عالية الحركة باستخدام تقنيات حديثة."
 
 #: src/routes/+page.svelte
 msgid "Computer Engineering"
@@ -181,7 +185,23 @@ msgstr "المعهد التقني الجامعي"
 
 #: src/routes/+page.svelte
 msgid "Pursuing degree with focus on Distributed Systems and Software Architecture."
-msgstr "السعي للحصول على درجة علمية مع التركيز على الأنظمة الموزعة وهندسة البرمجيات."
+msgstr "دراسة متخصصة في الأنظمة الموزعة وهندسة البرمجيات."
+
+#: src/routes/+page.svelte
+msgid "Skills"
+msgstr "المهارات"
+
+#: src/routes/+page.svelte
+msgid "Projects"
+msgstr "المشاريع"
+
+#: src/routes/+page.svelte
+msgid "Experience"
+msgstr "الخبرة"
+
+#: src/routes/+page.svelte
+msgid "Vision"
+msgstr "الرؤية"
 
 #: src/routes/+page.svelte
 msgid "Toggle menu"
@@ -190,7 +210,7 @@ msgstr "تبديل القائمة"
 #: src/routes/+page.svelte
 #: src/routes/+page.svelte
 msgid "CONTACT"
-msgstr "اتصل"
+msgstr "تواصل"
 
 #: src/routes/+page.svelte
 msgid "Mohammad Ali - Computer Engineer"
@@ -206,7 +226,7 @@ msgstr "م. علي"
 
 #: src/routes/+page.svelte
 msgid "3rd Year <0>Computer Engineer</0> & Independent Builder. Modern Web Experiences, AI, Fintech, SaaS."
-msgstr "السنة الثالثة <0>هندسة حاسوب</0> وباني مستقل. تجارب ويب حديثة، ذكاء اصطناعي، تكنولوجيا مالية، SaaS."
+msgstr "طالب في السنة الثالثة <0>هندسة حاسوب</0> ومطوّر مستقل. تجارب ويب حديثة، ذكاء اصطناعي، تقنية مالية، SaaS."
 
 #: src/routes/+page.svelte
 msgid "SYSTEM STATE: ACTIVE"
@@ -214,7 +234,7 @@ msgstr "حالة النظام: نشط"
 
 #: src/routes/+page.svelte
 msgid "LOC: 40.7128° N, 74.0060° W"
-msgstr "الموقع: 40.7128° شمالاً، 74.0060° غرباً"
+msgstr "الموقع: 40.7128° ش، 74.0060° غ"
 
 #: src/routes/+page.svelte
 msgid "PHILOSOPHY"
@@ -226,19 +246,19 @@ msgstr "النية المعمارية"
 
 #: src/routes/+page.svelte
 msgid "I approach code not just as a set of instructions, but as a structural discipline. Similar to brutalist architecture, my work prioritizes honesty in materials—meaning clean logic, robust data structures, and uncompromised performance. Every module is a load-bearing element in the digital ecosystem."
-msgstr "أتعامل مع الكود ليس فقط كمجموعة من التعليمات، بل كنظام هيكلي. على غرار العمارة الوحشية، يعطي عملي الأولوية للصدق في المواد - مما يعني منطقًا نظيفًا، وهياكل بيانات قوية، وأداءً غير مساوم عليه. كل وحدة هي عنصر حامل في النظام البيئي الرقمي."
+msgstr "أتعامل مع الكود ليس كمجرد تعليمات، بل كانضباط هيكلي. على غرار العمارة الوحشية، يُعلي عملي من قيمة الصدق في المواد — أي المنطق النظيف، وهياكل البيانات المتينة، والأداء دون تنازل. كل وحدة هي عنصر حامل في المنظومة الرقمية."
 
 #: src/routes/+page.svelte
 msgid "The goal is to eliminate the unnecessary. By adhering to the principles of Swiss Modernism, I create interfaces where typography dictates the rhythm and whitespace provides the clarity required for complex technical tasks."
-msgstr "الهدف هو التخلص من غير الضروري. من خلال الالتزام بمبادئ الحداثة السويسرية، أقوم بإنشاء واجهات حيث تحدد الطباعة الإيقاع وتوفر المسافات البيضاء الوضوح المطلوب للمهام التقنية المعقدة."
+msgstr "الهدف هو حذف كل ما هو غير ضروري. استناداً إلى مبادئ الحداثة السويسرية، أصمم واجهات تُحدد فيها الطباعة الإيقاع، والمساحة البيضاء توفر الوضوح اللازم للمهام التقنية المعقدة."
 
 #: src/routes/+page.svelte
 msgid "CAPABILITIES / CORE"
-msgstr "المهارات / الأساسية"
+msgstr "القدرات / الأساسية"
 
 #: src/routes/+page.svelte
 msgid "WORKS / INDEX"
-msgstr "الأعمال / المؤشر"
+msgstr "الأعمال / الفهرس"
 
 #: src/routes/+page.svelte
 msgid "north_east"
@@ -254,76 +274,56 @@ msgstr "الرؤية"
 
 #: src/routes/+page.svelte
 msgid "\"Simplicity is the ultimate structural integrity. We build not just for function, but for permanence in an ephemeral digital age.\""
-msgstr "\"البساطة هي السلامة الهيكلية القصوى. نحن نبني ليس فقط من أجل الوظيفة، بل من أجل الديمومة في عصر رقمي زائل.\""
+msgstr "«البساطة هي الإتقان الهيكلي في أعلى صوره. نبني ليس من أجل الوظيفة فحسب، بل من أجل الديمومة في عصر رقمي عابر.»"
 
 #: src/routes/+page.svelte
 msgid "TRANSMISSION"
-msgstr "الإرسال"
+msgstr "الرسالة"
 
 #: src/routes/+page.svelte
 msgid "Initiate Connect"
-msgstr "بدء الاتصال"
+msgstr "ابدأ التواصل"
 
 #: src/routes/+page.svelte
 msgid "SENDER_NAME"
-msgstr "اسم المرسل"
+msgstr "اسم_المرسل"
+
+#: src/routes/+page.svelte
+msgid "Enter Name"
+msgstr "أدخل الاسم"
 
 #: src/routes/+page.svelte
 msgid "SENDER_EMAIL"
-msgstr "بريد المرسل"
+msgstr "بريد_المرسل"
+
+#: src/routes/+page.svelte
+msgid "Enter Email"
+msgstr "أدخل البريد الإلكتروني"
 
 #: src/routes/+page.svelte
 msgid "MESSAGE_PAYLOAD"
-msgstr "محتوى الرسالة"
+msgstr "محتوى_الرسالة"
+
+#: src/routes/+page.svelte
+msgid "Describe the Mission"
+msgstr "صِف المهمة"
 
 #: src/routes/+page.svelte
 msgid "SEND_TRANSMISSION"
-msgstr "إرسال الإرسالية"
+msgstr "إرسال_الرسالة"
 
 #: src/routes/+page.svelte
 msgid "© 2024 BUILT BY ARCHITECTURAL MONOLITH. ALL RIGHTS RESERVED."
-msgstr "© 2024 تم البناء بواسطة Architectural Monolith. جميع الحقوق محفوظة."
+msgstr "© 2024 بُني بواسطة ARCHITECTURAL MONOLITH. جميع الحقوق محفوظة."
 
 #: src/routes/+page.svelte
 msgid "GITHUB"
-msgstr "جيثب"
+msgstr "GITHUB"
 
 #: src/routes/+page.svelte
 msgid "LINKEDIN"
-msgstr "لينكدإن"
+msgstr "LINKEDIN"
 
 #: src/routes/+page.svelte
 msgid "SOURCE"
 msgstr "المصدر"
-
-#: src/lib/LanguageToggle.svelte
-msgid "Language"
-msgstr "الللغة"
-
-#: src/routes/+page.svelte
-msgid "Skills"
-msgstr "المهارات"
-
-#: src/routes/+page.svelte
-msgid "Projects"
-msgstr "المشاريع"
-
-#: src/routes/+page.svelte
-msgid "Experience"
-msgstr "خبرة"
-
-#: src/routes/+page.svelte
-msgid "Vision"
-msgstr "رؤية"
-
-#: src/routes/+page.svelte
-msgid "Enter Name"
-msgstr "أدخل إسمك"
-
-#: src/routes/+page.svelte
-msgid "Enter Email"
-msgstr "أدخل إيميلك"
-
-#: src/routes/+page.svelte
-msgid "Describe the Mission"
-msgstr "ما مهمتي"
