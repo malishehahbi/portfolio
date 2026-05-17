@@ -386,7 +386,7 @@ tools that are technically solid but still feel clean, fast, and human to use."
 					<textarea 
 						id="message"
 						name="message"
-						class="w-full bg-transparent border-none focus:ring-0 text-on-surface placeholder: uppercase text-outline p-0 resize-none text-base md:text-lg" 
+						class="w-full bg-transparent border-none focus:ring-0 text-on-surface placeholder:uppercase text-outline p-0 resize-none text-base md:text-lg" 
 						placeholder="Describe the Mission" 
 						rows="4"
 						required
