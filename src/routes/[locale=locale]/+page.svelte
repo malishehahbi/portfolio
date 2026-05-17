@@ -1,13 +1,10 @@
 <script lang="ts">
+	import { env } from '$env/dynamic/public';
 	import Logo from '$lib/assets/logo.svg.svelte';
 
 	let { data } = $props();
 
-	let formData = {
-		name: '',
-		email: '',
-		message: ''
-	};
+	const turnstileSiteKey = env.PUBLIC_TURNSTILE_SITE_KEY;
 
 	let mobileMenuOpen = $state(false);
 	let activeSection = $state('');
@@ -88,11 +85,6 @@
 
 	const homeHref = $derived(`/${data.locale}`);
 
-	function handleSubmit(e: Event) {
-		e.preventDefault();
-		console.log('Form submitted:', formData);
-	}
-
 	function toggleMobileMenu() {
 		mobileMenuOpen = !mobileMenuOpen;
 	}
@@ -120,6 +112,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+	<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 </svelte:head>
 
 <svelte:window 
@@ -324,26 +317,28 @@ tools that are technically solid but still feel clean, fast, and human to use."
 			<h2 class="text-2xl md:text-4xl font-headline font-bold uppercase tracking-tighter mt-4 mb-4 md:mb-0">Contact</h2>
 		</div>
 		<div class="md:col-span-8">
-			<form class="grid grid-cols-1 md:grid-cols-2 gap-3" onsubmit={handleSubmit}>
+			<form class="grid grid-cols-1 md:grid-cols-2 gap-3" action="https://submit-form.com/Zh4ADGaga" method="POST">
 			<div class="col-span-12 flex flex-row gap-4 md:gap-8">
 				<div class="flex-1 border-b border-outline-variant py-3 md:py-4">
 					<label class="technical-label text-on-surface-variant block mb-2" for="name">SENDER_NAME</label>
 					<input 
 						id="name"
+						name="name"
 						class="w-full bg-transparent border-none focus:ring-0 text-on-surface placeholder:uppercase text-outline p-0 text-base md:text-lg min-h-[44px]"
 						placeholder="Enter Name" 
 						type="text"
-						bind:value={formData.name}
+						required
 					/>
 				</div>
 				<div class="flex-1 border-b border-outline-variant py-3 md:py-4">
 					<label class="technical-label text-on-surface-variant block mb-2" for="email">SENDER_EMAIL</label>
 					<input 
 						id="email"
+						name="email"
 						class="w-full bg-transparent border-none focus:ring-0 text-on-surface placeholder:uppercase text-outline p-0 text-base md:text-lg min-h-[44px]"
 						placeholder="Enter Email" 
 						type="email"
-						bind:value={formData.email}
+						required
 					/>
 				</div>
 			</div>
@@ -351,12 +346,18 @@ tools that are technically solid but still feel clean, fast, and human to use."
 					<label class="technical-label text-on-surface-variant block mb-2" for="message">MESSAGE_PAYLOAD</label>
 					<textarea 
 						id="message"
+						name="message"
 						class="w-full bg-transparent border-none focus:ring-0 text-on-surface placeholder: uppercase text-outline p-0 resize-none text-base md:text-lg" 
 						placeholder="Describe the Mission" 
 						rows="4"
-						bind:value={formData.message}
+						required
 					></textarea>
 				</div>
+				{#if turnstileSiteKey}
+					<div class="col-span-12 mt-4">
+						<div class="cf-turnstile" data-sitekey={turnstileSiteKey}></div>
+					</div>
+				{/if}
 				<div class="col-span-12 mt-4 md:mt-8">
 					<button class="bg-primary text-on-primary font-headline font-bold uppercase tracking-widest px-8 md:px-12 py-4 hover:bg-primary-dim transition-colors active:scale-[0.98] w-full md:w-auto min-h-[44px]" type="submit">
 						SEND_TRANSMISSION

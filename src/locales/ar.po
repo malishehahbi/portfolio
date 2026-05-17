@@ -234,6 +234,8 @@ msgstr "محمد علي - مهندس الحاسوب"
 msgid "IDENTITY / 001"
 msgstr "الهوية / 001"
 
+#: src/routes/+page.svelte
+#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
 msgid "Mohamad Ali"
 msgstr "محمد علي"
@@ -347,4 +349,8 @@ msgstr "2026 — نُفذ بـ \"إحسان\". لا قيود على الحقوق
 
 #: src/routes/+error.svelte
 msgid "Back to home"
+msgstr ""
+
+#: src/routes/+page.svelte
+msgid "Enter"
 msgstr ""

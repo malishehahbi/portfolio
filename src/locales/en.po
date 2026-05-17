@@ -234,6 +234,8 @@ msgstr "Mohammad Ali - Computer Engineer"
 msgid "IDENTITY / 001"
 msgstr "IDENTITY / 001"
 
+#: src/routes/+page.svelte
+#: src/routes/+page.svelte
 #: src/routes/[locale=locale]/+page.svelte
 msgid "Mohamad Ali"
 msgstr "Mohamad Ali"
@@ -348,3 +350,7 @@ msgstr "Copyleft 2026 BUILt WITH \"IHSAN\" NO RIGHTS RESERVED. Sharing is caring
 #: src/routes/+error.svelte
 msgid "Back to home"
 msgstr "Back to home"
+
+#: src/routes/+page.svelte
+msgid "Enter"
+msgstr "Enter"
