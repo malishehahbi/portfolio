@@ -4,7 +4,7 @@
 
 	let { data } = $props();
 
-	const turnstileSiteKey = env.PUBLIC_TURNSTILE_SITE_KEY;
+	const turnstileSiteKey = '0x4AAAAAADRDoJdDuWnPdBZ9';
 
 	let mobileMenuOpen = $state(false);
 	let activeSection = $state('');
