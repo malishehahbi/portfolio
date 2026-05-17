@@ -12,13 +12,18 @@
 
 	onMount(() => {
 		const win = window as Window & {
-			onTurnstileSuccess?: () => void;
+			onTurnstileSuccess?: (token?: string) => void;
 			onTurnstileExpired?: () => void;
 			onTurnstileError?: () => void;
 		};
+		const syncTurnstileState = () => {
+			const response = document.querySelector<HTMLInputElement>('input[name="cf-turnstile-response"]');
+			turnstileVerified = Boolean(response?.value);
+		};
 
-		win.onTurnstileSuccess = () => {
-			turnstileVerified = true;
+		win.onTurnstileSuccess = (token) => {
+			turnstileVerified = Boolean(token);
+			syncTurnstileState();
 		};
 		win.onTurnstileExpired = () => {
 			turnstileVerified = false;
@@ -27,12 +32,21 @@
 			turnstileVerified = false;
 		};
 
+		const intervalId = window.setInterval(syncTurnstileState, 300);
+
 		return () => {
+			window.clearInterval(intervalId);
 			delete win.onTurnstileSuccess;
 			delete win.onTurnstileExpired;
 			delete win.onTurnstileError;
 		};
 	});
+
+	function handleContactSubmit(e: SubmitEvent) {
+		if (!turnstileVerified) {
+			e.preventDefault();
+		}
+	}
 
 	const skills = [
 		{
@@ -342,7 +356,7 @@ tools that are technically solid but still feel clean, fast, and human to use."
 			<h2 class="text-2xl md:text-4xl font-headline font-bold uppercase tracking-tighter mt-4 mb-4 md:mb-0">Contact</h2>
 		</div>
 		<div class="md:col-span-8">
-			<form class="grid grid-cols-1 md:grid-cols-2 gap-3" action="https://submit-form.com/Zh4ADGaga" method="POST">
+			<form class="grid grid-cols-1 md:grid-cols-2 gap-3" action="https://submit-form.com/Zh4ADGaga" method="POST" onsubmit={handleContactSubmit}>
 			<div class="col-span-12 flex flex-row gap-4 md:gap-8">
 				<div class="flex-1 border-b border-outline-variant py-3 md:py-4">
 					<label class="technical-label text-on-surface-variant block mb-2" for="name">SENDER_NAME</label>
