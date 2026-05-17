@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import Logo from '$lib/assets/logo.svg.svelte';
 
 	let { data } = $props();
@@ -7,6 +8,31 @@
 
 	let mobileMenuOpen = $state(false);
 	let activeSection = $state('');
+	let turnstileVerified = $state(false);
+
+	onMount(() => {
+		const win = window as Window & {
+			onTurnstileSuccess?: () => void;
+			onTurnstileExpired?: () => void;
+			onTurnstileError?: () => void;
+		};
+
+		win.onTurnstileSuccess = () => {
+			turnstileVerified = true;
+		};
+		win.onTurnstileExpired = () => {
+			turnstileVerified = false;
+		};
+		win.onTurnstileError = () => {
+			turnstileVerified = false;
+		};
+
+		return () => {
+			delete win.onTurnstileSuccess;
+			delete win.onTurnstileExpired;
+			delete win.onTurnstileError;
+		};
+	});
 
 	const skills = [
 		{
@@ -357,6 +383,9 @@ tools that are technically solid but still feel clean, fast, and human to use."
 						<div
 							class="cf-turnstile"
 							data-sitekey={turnstileSiteKey}
+							data-callback="onTurnstileSuccess"
+							data-expired-callback="onTurnstileExpired"
+							data-error-callback="onTurnstileError"
 							data-response-field="true"
 							data-response-field-name="cf-turnstile-response"
 							data-theme="dark"
@@ -364,7 +393,11 @@ tools that are technically solid but still feel clean, fast, and human to use."
 					</div>
 				{/if}
 				<div class="col-span-12 mt-4 md:mt-8">
-					<button class="bg-primary text-on-primary font-headline font-bold uppercase tracking-widest px-8 md:px-12 py-4 hover:bg-primary-dim transition-colors active:scale-[0.98] w-full md:w-auto min-h-[44px]" type="submit">
+					<button
+						class="bg-primary text-on-primary font-headline font-bold uppercase tracking-widest px-8 md:px-12 py-4 hover:bg-primary-dim transition-colors active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:bg-primary w-full md:w-auto min-h-[44px]"
+						type="submit"
+						disabled={!turnstileVerified}
+					>
 						SEND_TRANSMISSION
 					</button>
 				</div>
