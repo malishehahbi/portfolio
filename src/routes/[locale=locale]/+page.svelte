@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { env } from '$env/dynamic/public';
 	import Logo from '$lib/assets/logo.svg.svelte';
 
 	let { data } = $props();
@@ -355,7 +354,13 @@ tools that are technically solid but still feel clean, fast, and human to use."
 				</div>
 				{#if turnstileSiteKey}
 					<div class="col-span-12 mt-4">
-						<div class="cf-turnstile" data-sitekey={turnstileSiteKey}></div>
+						<div
+							class="cf-turnstile"
+							data-sitekey={turnstileSiteKey}
+							data-response-field="true"
+							data-response-field-name="cf-turnstile-response"
+							data-theme="dark"
+						></div>
 					</div>
 				{/if}
 				<div class="col-span-12 mt-4 md:mt-8">
