@@ -427,7 +427,7 @@ tools that are technically solid but still feel clean, fast, and human to use."
 	</div>
 	<div class="flex gap-8 md:gap-12">
 		<a class="content-center font-headline text-[10px] tracking-[0.2em] uppercase text-on-surface-variant hover:text-white transition-colors duration-200 min-h-[44px] px-2" href="https://github.com/malishehahbi" target="_blank">GITHUB</a>
-		<a class="content-center font-headline text-[10px] tracking-[0.2em] uppercase text-on-surface-variant hover:text-white transition-colors duration-200 min-h-[44px] px-2" href="https://www.linkedin.com/in/malishihabi" target="_blank">LINKEDIN</a>
-		<a class="content-center font-headline text-[10px] tracking-[0.2em] uppercase text-on-surface-variant hover:text-white transition-colors duration-200 min-h-[44px] px-2" href="https://github.com/malishehahbi" target="_blank">SOURCE</a>
+		<a class="content-center font-headline text-[10px] tracking-[0.2em] uppercase text-on-surface-variant hover:text-white transition-colors duration-200 min-h-[44px] px-2" href="https://www.linkedin.com/in/mohamad-ali-alchihabi-205120309/" target="_blank">LINKEDIN</a>
+		<a class="content-center font-headline text-[10px] tracking-[0.2em] uppercase text-on-surface-variant hover:text-white transition-colors duration-200 min-h-[44px] px-2" href="https://github.com/malishehahbi/portfolio" target="_blank">SOURCE</a>
 	</div>
 </footer>
